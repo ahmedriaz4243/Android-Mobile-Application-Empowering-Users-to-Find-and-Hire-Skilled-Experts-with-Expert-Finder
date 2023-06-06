@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--REG NO : 2200482-->
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="14dp"
+    android:background="@drawable/backgroud">
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud"
+    tools:context=".activities.RegisterWorkerActivity">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height = "match_parent"
+        android:background="@drawable/backgroud">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Expert Finder"
+            android:textSize="50dp"
+            android:textColor="@color/pink"
+            android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="10dp"
+        android:text="Welocme! Register to continue as Expert"
+        android:textColor="@color/pink"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@id/title"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true" />
+
+    <EditText
+        android:id="@+id/userWorkername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="20dp"
+        android:hint="User Name"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:textSize="15dp"
+        android:layout_below="@id/subtitle"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true" />
+
+    <EditText
+        android:id="@+id/Workeremail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:textSize="15dp"
+        android:layout_below="@id/userWorkername"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true" />
+
+
+    <EditText
+        android:id="@+id/Workerpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textSize="15dp"
+        android:layout_below="@id/Workeremail"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true" />
+
+    <EditText
+        android:id="@+id/Workerlocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Location"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textSize="15dp"
+        android:layout_below="@id/Workerpassword"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true" />
+
+        <Spinner
+            android:id="@+id/Workerskill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="15dp"
+            android:entries="@array/spinnerItems"
+            android:layout_below="@id/Workerlocation"
+            android:layout_alignParentLeft = "true"
+            android:layout_alignParentStart = "true"
+            android:layout_alignParentRight = "true"
+            android:layout_alignParentEnd = "true"
+        />
+
+        <Button
+            android:id="@+id/btnWorkerreg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="Register"
+            android:gravity="center"
+            android:onClick="RTClickRegister"
+            android:padding="15dp"
+            android:textSize="15dp"
+            android:textColor="@android:color/white"
+            android:layout_below="@id/Workerskill"
+            android:layout_alignParentLeft = "true"
+            android:layout_alignParentStart = "true"
+            android:layout_alignParentRight = "true"
+            android:layout_alignParentEnd = "true" />
+
+
+        <TextView
+        android:id="@+id/yesaccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="Already have account! Login"
+            android:textColor="@color/pink"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_below="@id/btnWorkerreg"
+            android:layout_alignParentLeft = "true"
+            android:layout_alignParentStart = "true"
+            android:layout_alignParentRight = "true"
+            android:layout_alignParentEnd = "true" />
+
+        <Button
+            android:id="@+id/btnWorkerlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/yesaccount"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:onClick="RTClickLogin"
+            android:padding="15dp"
+            android:text="Login"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:layout_alignParentLeft = "true"
+            android:layout_alignParentStart = "true"
+            android:layout_alignParentRight = "true"
+            android:layout_alignParentEnd = "true" />
+
+        <TextView
+        android:id="@+id/swipeRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find your Customer From Home"
+        android:textColor="@color/pink"
+        android:textSize="15dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        android:layout_below="@id/btnWorkerlogin"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
+
+</RelativeLayout>
+

@@ -1,0 +1,28 @@
+<resources>
+    <!--REG NO : 2200482-->
+    <string name="app_name">ExpertFinder</string>
+    <string name="skill_1">Electrician</string>
+    <string name="skill_2">Plumber</string>
+    <string name="skill_3">Carpenter</string>
+    <string name="skill_4">Gas Engineer</string>
+    <string name="skill_5">Cleaner</string>
+    <string name="skill_6">Painter</string>
+    <string name="skill_7">Personal Care</string>
+    <string name="skill_8">Builder</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="spinnerItems">
+        <item>Electrician</item>
+        <item>Gas Engineer</item>
+        <item>Plumber</item>
+        <item>Cleaner</item>
+        <item>Carpenter</item>
+        <item>Painter</item>
+        <item>Personal Care</item>
+        <item>Builder</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,86 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!--REG NO : 2200482-->
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud"
+    tools:context = ".activities.RegisterActivity">
+
+    <RelativeLayout
+
+        xmlns:tools = "http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height = "match_parent"
+        android:background="@drawable/backgroud">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="  Expert Finder"
+        android:textSize="50dp"
+        android:textColor="@color/pink"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welocme to the Expert Finder! Register to continue."
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="-250dp"
+        android:textColor="@color/pink"
+        android:layout_below = "@+id/title" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@android:color/white"
+        android:onClick="ClickRegisterCustomer"
+        android:text="Register as Customer"
+        android:layout_below = "@+id/title"/>
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnlogin"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Register as Worker"
+        android:onClick="ClickRegisterWorker"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tagmessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find Your Services From Home"
+        android:textSize="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="160dp"
+        android:textStyle="bold"
+        android:textColor="@color/pink"
+        android:layout_below="@id/btnregister"/>
+
+</RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "738112006094",
+    "project_id": "experfinderdb",
+    "storage_bucket": "experfinderdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738112006094:android:2de0dd95da7541534aad9f",
+        "android_client_info": {
+          "package_name": "com.example.expertfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738112006094-krsbeulmpclaig4toieeio9nobd39cg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChAeI0xWf1DEPkKvHVwCeYhVdzZstxy74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738112006094-krsbeulmpclaig4toieeio9nobd39cg6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

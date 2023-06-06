@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--REG NO : 2200482-->
+<menu  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/backgroud"
+    tools:context="example.javatpoint.com.kotlinoptionsmenu.ServiceActivity">
+
+    <item android:id="@+id/order"
+        android:title="Orders" />
+    <item android:id="@+id/exit"
+        android:title="Logout" />
+
+</menu>
